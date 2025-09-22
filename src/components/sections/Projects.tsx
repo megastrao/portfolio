@@ -10,7 +10,7 @@ export default function Projects() {
           {projects.map(p => (
             <article key={p.title} className="card">
               <div className="thumb">
-                <Image src={p.image} alt={p.title} width={640} height={360} />
+                <Image src={p.image} alt={p.title} width={300} height={360} />
               </div>
               <h3>{p.title}</h3>
               <p className="muted">{p.description}</p>
